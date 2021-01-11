@@ -1,0 +1,8 @@
+[program:ProgramName]
+directory= BasePath
+command= php artisan queue:work  --queue=QueueName
+autostart=true
+autorestart=true
+stderr_logfile=StderrLog
+stdout_logfile=StdoutLog
+#user = test

@@ -1,0 +1,27 @@
+{
+    "name": "song2013/crm-supervisor",
+    "description": "This is command for Laravel create supervisor ini file",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "song2013",
+            "email": "song2013@outlook.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.9",
+        "laravel/framework": "5.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Crm\\Supervisor\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel":{
+            "providers": [
+                "Crm\\Supervisor\\SupervisorServiceProvider"
+            ]
+        }
+    }
+}
